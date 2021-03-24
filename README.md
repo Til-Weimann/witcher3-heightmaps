@@ -68,7 +68,7 @@ Here is a quick guide on how to obtain the files on your own (Windows):
 12. Now the last thing we need to do is rotating the image. You can do that with any image editor, but here is how it works with GIMP:
   Image (Toolbar) => Transform => Flip Vertically; File => Export
   
-If you have any problems or questions, ask away.
+If you have any questions or problems, head to the Discussions page and ask away. :D
 
 # Other
 
