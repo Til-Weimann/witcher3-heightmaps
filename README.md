@@ -38,6 +38,8 @@ https://drive.google.com/file/d/1yGWzJB89jAYy6g3PI6COoHZzAamFc5Bz/view?usp=shari
 
 # Legal
 I uploaded these height maps for other The Witcher fans to use them in their own fan projects since obtaining them manually can take quite a bit of time.
+
 While I heavily doubt that CDPR will have something against this, a legal permission to do so not exist.
 This is why you should limit the use of data extracted from the game in general to private fan projects and refrain from using them in any commercial way without having explicit permission by CDPR.
+
 In the case that CDPR should indeed have something against the height data being up for download here, please contact me and I will take the files down.
