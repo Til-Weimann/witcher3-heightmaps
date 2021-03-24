@@ -72,7 +72,7 @@ If you have any problems or questions, ask away.
 
 # Other
 
-- If you wonder what data is stored in the other w2ter.N.buffer files, check out this GDD Presentation: https://archive.org/details/GDC2014Gollent
+- If you wonder what data is stored in the other w2ter.N.buffer files, check out this GDC Presentation: https://archive.org/details/GDC2014Gollent
   
   To sum it up:
   
