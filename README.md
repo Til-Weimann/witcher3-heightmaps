@@ -63,7 +63,7 @@ Here is a quick guide on how to obtain the files on your own (Windows):
 
 10. Open the console and enter in this command (you can change also the output format): **magick montage -mode concatenate -tile [VALUE+1]x tile_*.tiff joined.tiff**
 
-11. After the individual images have been merged together, you should see joined.tiff in your folder. Open it up and check if everything looks right, if yes, you can delete all the other files in the folder.
+11. After the individual images have been merged together (this can take a bit of time depending on your computer and what image it is), you should see joined.tiff in your folder. Open it up and check if everything looks right, if yes, you can delete all the other files in the folder.
 
 12. Now the last thing we need to do is rotating the image. You can do that with any image editor, but here is how it works with GIMP:
   Image (Toolbar) => Transform => Flip Vertically; File => Export
