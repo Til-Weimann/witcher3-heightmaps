@@ -54,7 +54,7 @@ Here is a quick guide on how to obtain the files on your own (Windows):
 
 6. Open the Console and also change the directionary to that folder.
 
-7. Find out what resolution the individual files are by looking at the size.
+7. Find out what resolution the individual files.
 
 8. We will now convert the raw image data to a readable format. To do this, enter this command in the console, set the resolution value and hit enter:
   **FOR /R %a IN (*.buffer) DO magick convert -size [RESOLUTION]x[RESOLUTION] -depth 16 -define quantum:format=unsigned gray:"%~a" "%~dpna.tiff"**
@@ -69,6 +69,13 @@ Here is a quick guide on how to obtain the files on your own (Windows):
   Image (Toolbar) => Transform => Flip Vertically; File => Export
   
 If you have any problems or questions, ask away.
+
+# Other
+
+- If you wonder what data is stored in the other w2ter.N.buffer files, check out this GDD Presentation: https://archive.org/details/GDC2014Gollent
+  To sum it up: - The individual tiles are dynamicly streamed depending on player location.
+                - w2ter.2.buffer (control map) contains information about how the terrain is textured (so it's mostly useless for external purposes)
+                - The following numbers are LODs of height and control map
 
 # Legal
 I uploaded these height maps for other The Witcher fans to use them in their own fan projects since obtaining them manually can take quite a bit of time.
