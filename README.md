@@ -54,7 +54,7 @@ Here is a quick guide on how to obtain the files on your own (Windows):
 
 6. Open the Console and also change the directionary to that folder.
 
-7. Find out what resolution the individual files.
+7. Find out what resolution the individual files are. 128KB => 256x256, 512KB => 512x512
 
 8. We will now convert the raw image data to a readable format. To do this, enter this command in the console, set the resolution value and hit enter:
   **FOR /R %a IN (*.buffer) DO magick convert -size [RESOLUTION]x[RESOLUTION] -depth 16 -define quantum:format=unsigned gray:"%~a" "%~dpna.tiff"**
