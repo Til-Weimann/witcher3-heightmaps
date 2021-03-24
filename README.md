@@ -28,9 +28,10 @@ https://drive.google.com/file/d/1Sg9GnM-WYqiPVSF5sz11ln1ek4yisD2D/view?usp=shari
 The Spiral (Through Time and Space): 
 https://drive.google.com/file/d/1qeSfxVL4QGoNd9G0Bs603BncX_E4i55x/view?usp=sharing (1.12GB) 
 
-White Orchard Winter (Empress Ending): 
+White Orchard Winter (Empress Ending)*: 
 https://drive.google.com/file/d/1yGWzJB89jAYy6g3PI6COoHZzAamFc5Bz/view?usp=sharing (32MB) 
 
+*There might be not be any difference to regular White Orchard
 
 # How to obtain the files manually
 
