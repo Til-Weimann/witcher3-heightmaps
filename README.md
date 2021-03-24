@@ -2,34 +2,34 @@
 Elevation data from all The Witcher 3 levels
 
 # Download
-Since GitHub's file size limit is too small for detailed terrain data, the images can be downloaded Google Drive (.tiff).
+Since GitHub's file size limit is too small for detailed terrain data, the images are hosted on Google Drive (.tiff).
 
 White Orchard: 
-https://drive.google.com/file/d/1XODsgD6cQ7gSCVJummFgKJTsJSChROr-/view?usp=sharing (32MB) 
+https://bit.ly/3fcbIWn (32MB) 
 
 Novigrad + Velen: 
-https://drive.google.com/file/d/10ThDH92nHNE5mYJ9YZMNLutNHd5F-4wa/view?usp=sharing (1.03GB) 
+https://bit.ly/3lLejYN (1.03GB) 
 
 Skellige: 
-https://drive.google.com/file/d/1iupmOSelLljAWq5mb0nNMF_C1Qo4fYq1/view?usp=sharing (512MB) 
+https://bit.ly/3sjswi8 (512MB) 
 
 Kaer Morhen: 
-https://drive.google.com/file/d/1kB1d4AtIS1nEN2tQuyHzCYsvCO6ehrbE/view?usp=sharing (512MB) 
+https://bit.ly/3vSeo1s (512MB) 
 
 Toussaint: 
-https://drive.google.com/file/d/1a7lqU4eJukSWz5Z3ml-p9LoU4YZBbnWg/view?usp=sharing (512MB) 
+https://bit.ly/31cQP5c (512MB) 
 
 Vizima Palace:
-https://drive.google.com/file/d/1koT1mQmVtsqL4rRpc-siMa1ZRxu1392g/view?usp=sharing (41MB) 
+https://bit.ly/3d6vxf4 (41MB) 
 
 Isle Of Mist: 
-https://drive.google.com/file/d/1Sg9GnM-WYqiPVSF5sz11ln1ek4yisD2D/view?usp=sharing (32MB) 
+https://bit.ly/39amngF (32MB) 
 
 The Spiral (Through Time and Space): 
-https://drive.google.com/file/d/1qeSfxVL4QGoNd9G0Bs603BncX_E4i55x/view?usp=sharing (1.12GB) 
+https://bit.ly/2QCIOoj (1.12GB) 
 
 White Orchard Winter (Empress Ending)*: 
-https://drive.google.com/file/d/1yGWzJB89jAYy6g3PI6COoHZzAamFc5Bz/view?usp=sharing (32MB) 
+https://bit.ly/3chKtYX (32MB) 
 
 *There might be not be any difference to regular White Orchard
 
