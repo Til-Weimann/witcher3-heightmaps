@@ -34,8 +34,41 @@ https://bit.ly/3chKtYX (32MB)
 *There might be not be any difference to regular White Orchard
 
 # How to obtain the files manually
+Here is a quick guide on how to obtain the files on your own (Windows):
 
+1. Install **WolvenKit** (https://github.com/WolvenKit/Wolvenkit)
 
+2. Create a new mod in WolvenKit and open the asset browser
+
+3. Disable the "limit results" checkbox and search for "w2ter.1.buffer", mark all and add them to the mod
+
+4. After WolvenKit has finished exporting the files, close it, open your mod folder and browse to *files/Mod/Bundle/levels/[level]/terrain_tiles*
+
+5. Since the way the files are named does not fully represent their order, we need to rename the files first. Since there is quite a lot of them, install **EF Multi File Renamer** (http://www.efsoftware.com/mr/e.htm, trial version).
+
+6. Download efmr_ruleset.mrt from the repository, hit "Import Rule" in EF Multi File Renamer and select it.
+
+7. IN EFMR, navigate to the folder with the terrain files, make sure the rules are activated and hit Rename.
+
+5. Install **ImageMagick** (imagemagick.org)
+
+6. Open the Console and also change the directionary to that folder.
+
+7. Find out what resolution the individual files are by looking at the size.
+
+8. We will now convert the raw image data to a readable format. To do this, enter this command in the console, set the resolution value and hit enter:
+  **FOR /R %a IN (*.buffer) DO magick convert -size [RESOLUTION]x[RESOLUTION] -depth 16 -define quantum:format=unsigned gray:"%~a" "%~dpna.tiff"**
+  
+9. After all the images have been converted, open the folder and scoll all the way down, and check for the highest value in the folder (3, 15, 31 etc.).
+
+10. Open the console and enter in this command (you can change also the output format): **magick montage -mode concatenate -tile [VALUE+1]x tile_*.tiff joined.tiff**
+
+11. After the individual images have been merged together, you should see joined.tiff in your folder. Open it up and check if everything looks right, if yes, you can delete all the other files in the folder.
+
+12. Now the last thing we need to do is rotating the image. You can do that with any image editor, but here is how it works with GIMP:
+  Image (Toolbar) => Transform => Flip Vertically; File => Export
+  
+If you have any problems or questions, ask away.
 
 # Legal
 I uploaded these height maps for other The Witcher fans to use them in their own fan projects since obtaining them manually can take quite a bit of time.
