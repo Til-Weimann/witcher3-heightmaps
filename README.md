@@ -44,7 +44,7 @@ Here is a quick guide on how to obtain the files on your own (Windows):
 
 4. After WolvenKit has finished exporting the files, close it, open your mod folder and browse to *files/Mod/Bundle/levels/[level]/terrain_tiles*
 
-5. Since the way the files are named does not fully represent their order, we need to rename the files first. Since there is quite a lot of them, install **EF Multi File Renamer** (http://www.efsoftware.com/mr/e.htm, trial version).
+5. Since the way the files are named does not fully represent their order, we need to rename the files first. Since there is quite a lot of them, install **EF Multi File Renamer** (efsoftware.com/mr/e.htm, trial version).
 
 6. Download efmr_ruleset.mrt from the repository, hit "Import Rule" in EF Multi File Renamer and select it.
 
