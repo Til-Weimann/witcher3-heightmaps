@@ -56,17 +56,16 @@ Here is a quick guide on how to obtain the files on your own (Windows):
 
 7. Find out what resolution the individual files are. 128KB => 256x256, 512KB => 512x512
 
-8. We will now convert the raw image data to a readable format. To do this, enter this command in the console, set the resolution value and hit enter:
+8. We will now convert the raw image data to a readable format (using .tiff here, but it really works with anything). To do this, enter this command in the console, set the resolution value and hit enter:
   **FOR /R %a IN (*.buffer) DO magick convert -size [RESOLUTION]x[RESOLUTION] -depth 16 -define quantum:format=unsigned gray:"%~a" "%~dpna.tiff"**
   
 9. After all the images have been converted, open the folder and scoll all the way down, and check for the highest value in the folder (3, 15, 31 etc.).
 
 10. Open the console and enter in this command (you can change also the output format): **magick montage -mode concatenate -tile [VALUE+1]x tile_*.tiff joined.tiff**
 
-11. After the individual images have been merged together (this can take a bit of time depending on your computer and what image it is), you should see joined.tiff in your folder. Open it up and check if everything looks right, if yes, you can delete all the other files in the folder.
+11. After the individual images have been merged (this can take a bit of time depending on your computer and what image it is), you should see joined.tiff in your folder. Open it up and check if everything looks right, if yes, you can delete all the other files in the folder.
 
-12. Now the last thing we need to do is rotating the image. You can do that with any image editor, but here is how it works with GIMP:
-  Image (Toolbar) => Transform => Flip Vertically; File => Export
+12. Now the last thing we need to do is to flip the image. You can do so with **magick convert -flip joined.tiff flipped.tiff**, or just with any image editor like GIMP (Image => Transform => Flip Vertically)
   
 If you have any questions or problems, head to the Discussions page and ask away. :D
 
@@ -78,7 +77,7 @@ If you have any questions or problems, head to the Discussions page and ask away
   
   - The individual tiles are dynamicly streamed depending on player location.
   
-  - w2ter.2.buffer (control map) contains information about how the terrain is textured (so it's mostly useless for external purposes)
+  - w2ter.2.buffer (control map) contains internal information on how the terrain is textured (texture indices, UV scale, slope threshold)
   
   - The following numbers are LODs of height and control map
 
