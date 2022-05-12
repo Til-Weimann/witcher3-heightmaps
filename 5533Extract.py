@@ -44,9 +44,9 @@ for i in os.listdir(path):
             if invert_alpha:
                 images['A'] = invert(images['A'])
             RGBA = np.dstack((images['R'], images['G'], images['B'], images['A']))
-            Image.fromarray(RGBA).save(i + "_STACK" + output_type)
+            Image.fromarray(RGBA).save(i[:-len(input_type)] + "_STACK" + output_type)
         else:
-            images['R'].save(i + "_OL" + output_type)
-            images['G'].save(i + "_BG" + output_type)
-            images['B'].save(i + "_UV" + output_type)
-            images['A'].save(i + "_SL" + output_type)
+            images['R'].save(i[:-len(input_type)] + "_OL" + output_type)
+            images['G'].save(i[:-len(input_type)] + "_BG" + output_type)
+            images['B'].save(i[:-len(input_type)] + "_UV" + output_type)
+            images['A'].save(i[:-len(input_type)] + "_SL" + output_type)
