@@ -14,7 +14,7 @@ Skellige:
 https://bit.ly/3sjswi8 (512MB) 
 
 Kaer Morhen: 
-https://bit.ly/3vSeo1s (512MB) 
+https://bit.ly/3vSeo1s (512MB)
 
 Toussaint: 
 https://bit.ly/31cQP5c (512MB) 
@@ -36,7 +36,7 @@ https://bit.ly/3chKtYX (32MB)
 # How to obtain the files manually
 Here is a quick guide on how to obtain the files on your own (Windows):
 
-1. Install **WolvenKit** 0.6 (https://www.nexusmods.com/witcher3/mods/3161)
+1. Install **WolvenKit** 0.6 (https://www.nexusmods.com/witcher3/mods/3161).
 
 2. Create a new mod in WolvenKit and open the asset browser
 
@@ -79,7 +79,7 @@ If you have any questions or problems, head to the Discussions page and ask away
   
   - w2ter.2.buffer (control map) contains internal information on how the terrain is textured (texture indices, UV scale, slope threshold)
   
-  - The following numbers are LODs of height and control map
+  - Buffers 3-6 are mip maps of height and control map, followed by the color (tint) map
 
 # Legal
 I uploaded these height maps for other The Witcher fans to use them in their own fan projects since obtaining them manually can take quite a bit of time.
