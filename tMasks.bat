@@ -28,3 +28,4 @@ magick convert result.png -transparent #1A1A1A -alpha extract -negate -depth 8 2
 magick convert result.png -transparent #1B1B1B -alpha extract -negate -depth 8 26.png
 magick convert result.png -transparent #1C1C1C -alpha extract -negate -depth 8 27.png
 magick convert result.png -transparent #1D1D1D -alpha extract -negate -depth 8 28.png
+magick convert result.png -transparent #1E1E1E -alpha extract -negate -depth 8 29.png
