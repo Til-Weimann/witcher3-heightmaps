@@ -11,4 +11,4 @@ olM = sm < sc
 
 out = Image.fromarray(olM.astype('bool'))
 
-out.save(os.path.join(os.getcwd, "olM.png"))
+out.save(os.path.join(os.getcwd, "olMask.png"))
