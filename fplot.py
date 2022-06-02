@@ -3,13 +3,14 @@ import json
 import numpy as np
 import os
 
-p = os.getcwd()
-res = 16384
+path = os.getcwd()
+base = 8192
+prec = 2
 
-for f in os.listdir(p):
+for f in os.listdir(path):
     if f.endswith(".txt"):
-        map = np.zeros((res, res))
-        with open(p + f) as data:
+        map = np.zeros((base * prec, base * prec))
+        with open(os.path.join(path, f)) as data:
             for i in json.load(data):
-                map[round(i["PosX"] + res/2), round(i["PosY"] + res/2)] = 1
-            Image.fromarray(np.rot90(map).astype(bool)).save(p + f[:-4] + ".png")
+                map[round((i["PosX"] + base/2) * prec), round((i["PosY"] + base/2) * prec)] = 1
+            Image.fromarray(np.rot90(map).astype(bool)).save(os.path.join(path, f[:-4] + ".png"))
