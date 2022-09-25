@@ -36,7 +36,7 @@ https://bit.ly/3chKtYX (32MB)
 # How to obtain the files manually
 Here is a quick guide on how to obtain the files on your own (Windows):
 
-1. Install **WolvenKit** 0.6 (https://www.nexusmods.com/witcher3/mods/3161).
+1. Install the nightly build of **WolvenKit** 7 (https://github.com/WolvenKit/WolvenKit-7).
 
 2. Create a new mod in WolvenKit and open the asset browser
 
