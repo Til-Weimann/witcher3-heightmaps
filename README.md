@@ -28,15 +28,14 @@ https://bit.ly/39amngF (32MB)
 The Spiral (Through Time and Space): 
 https://bit.ly/2QCIOoj (1.12GB) 
 
-White Orchard Winter (Empress Ending)*: 
+White Orchard Winter (Empress Ending): 
 https://bit.ly/3chKtYX (32MB) 
 
-*There might be not be any difference to regular White Orchard
 
 # How to obtain the files manually
 Here is a quick guide on how to obtain the files on your own (Windows):
 
-1. Install the nightly build of **WolvenKit** 7 (https://github.com/WolvenKit/WolvenKit-7).
+1. Install the nightly build of **WolvenKit 7** (https://github.com/WolvenKit/WolvenKit-7).
 
 2. Create a new mod in WolvenKit and open the asset browser
 
