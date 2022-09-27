@@ -20,10 +20,13 @@ for root, dirs, files in os.walk(path):
                             rot = i["transform"]["rot"]
                             scale = i["transform"]["scale"]
                             ent = i["template"]
-                            with open(ent.replace("/", "-") + ".csv","a+") as f:
-                                f.write("" + str(pos[0]) + " " + str(pos[1]) + " " + str(pos[2]) + " " + str(round(rot[0]), 2) + " " + str(round(rot[1]), 2) + " " + str(round(rot[2]), 2) + " " + str((sum(scale) / len(scale))) + "\n")
+                            sc = round(sum(scale) / len(scale), 2)
+                            if sc == 0:
+                                sc = 1
+                            with open(os.path.join(os.getcwd(), "out",ent.replace("/", "-") + ".csv"),"a+") as f:
+                                f.write("" + str(pos[0]) + " " + str(pos[1]) + " " + str(pos[2]) + " " + str(round(rot[0], 2)) + " " + str(round(rot[1], 2)) + " " + str(round(rot[2], 2)) + " " + str(sc) + "\n")
                             
-                if "BlockData" in data["templates"][fn]["sectorData"]:
+                if "sectorData" in data["templates"][fn] and "BlockData" in data["templates"][fn]["sectorData"]:
                     for i in data["templates"][fn]["sectorData"]["BlockData"]:
                         if "meshIndex" in data["templates"][fn]["sectorData"]["BlockData"][i] and "position" in data["templates"][fn]["sectorData"]["BlockData"][i] and "rotationMatrix" in data["templates"][fn]["sectorData"]["BlockData"][i]:
                             posX = data["templates"][fn]["sectorData"]["BlockData"][i]["position"]["X"]
