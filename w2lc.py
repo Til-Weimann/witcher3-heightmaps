@@ -23,7 +23,9 @@ for root, dirs, files in os.walk(path):
                             sc = round(sum(scale) / len(scale), 2)
                             if sc == 0:
                                 sc = 1
-                            with open(os.path.join(os.getcwd(), "out",ent.replace("/", "-") + ".csv"),"a+") as f:
+                            print(ent)
+                            os.makedirs(os.path.join(path, "out", ent.rsplit("/", 1)[0]).replace("/","\\"), exist_ok=True)
+                            with open(os.path.join(os.getcwd(), "out",ent.replace("/", "\\") + ".csv"),"a+") as f:
                                 f.write("" + str(pos[0]) + " " + str(pos[1]) + " " + str(pos[2]) + " " + str(round(rot[0], 2)) + " " + str(round(rot[1], 2)) + " " + str(round(rot[2], 2)) + " " + str(sc) + "\n")
                             
                 if "sectorData" in data["templates"][fn] and "BlockData" in data["templates"][fn]["sectorData"]:
@@ -38,5 +40,7 @@ for root, dirs, files in os.walk(path):
                             r = R.from_matrix([[rot["ax"], rot["ay"], rot["az"]], [rot["bx"], rot["by"], rot["bz"]], [rot["cx"], rot["cy"], rot["cz"]]])
                             r = r.as_euler('xyz', degrees=True)
 
-                            with open(os.path.join(os.getcwd(), "out", mesh.replace("/", "-")) + ".csv","a+") as f:
+                            print(mesh)
+                            os.makedirs(os.path.join(path, "out", mesh.rsplit("/", 1)[0]).replace("/","\\"), exist_ok=True)
+                            with open(os.path.join(os.getcwd(), "out", mesh.replace("/","\\")) + ".csv","a+") as f:
                                 f.write("" + str(posX) + " " + str(posY) + " " + str(posZ) + " " + str(round(r[0], 2)) + " " + str(round(r[1], 2)) + " " + str(round(r[2], 2)) + " " + "1" + "\n")
