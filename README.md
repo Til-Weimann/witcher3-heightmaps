@@ -2,7 +2,7 @@
 Elevation data from all The Witcher 3 levels
 
 # Download
-Since GitHub's file size limit is too small for detailed terrain data, the images are hosted on Google Drive (.tiff).
+Since GitHub's file size limit is too small for uncompressed terrain data, the images are hosted on Google Drive (.tiff).
 
 White Orchard: 
 https://bit.ly/3fcbIWn (32MB) 
