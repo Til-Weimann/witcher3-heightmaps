@@ -12,6 +12,7 @@ for f in os.listdir(path):
                 if "Treetype" in line:
                     with open(os.path.join(path, "o", treetype + ".txt"),"a+") as outfile:
                         outfile.write(out)
+                        out = ""
                     treetype = line.split(" ")[-1].split("\\")[-1].replace(".srt","").replace("\n","")
                 elif "PositionX (Float) : " in line:
                     c = 6
