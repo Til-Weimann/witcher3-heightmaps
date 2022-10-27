@@ -1,7 +1,6 @@
 import os
 import numpy as np
 from PIL import Image
-import cv2
 
 path = os.getcwd()
 res = 7475
@@ -11,9 +10,12 @@ while True:
     fn = input("Enter file name: ") + ".png"
     if fn == "stop.png":
         break
-    elif fn == "show.png":
-        Image.fromarray(full.astype(bool)).save(os.path.join(path, "p", "_show.png"))
+    elif fn == "save.png":
+        Image.fromarray(full.astype(bool)).save(os.path.join(path, "p", "_save.png"))
         continue
+    elif fn == "load.png":
+        full = Image.open(os.path.join(path, "p", "_save.png"))
+	continue
     elif not os.path.exists(os.path.join(path, fn)):
         print(fn + " does not exist, try again.")
         continue
