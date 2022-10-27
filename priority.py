@@ -15,7 +15,7 @@ while True:
         continue
     elif fn == "load.png":
         full = Image.open(os.path.join(path, "p", "_save.png"))
-	continue
+        continue
     elif not os.path.exists(os.path.join(path, fn)):
         print(fn + " does not exist, try again.")
         continue
