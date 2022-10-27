@@ -19,8 +19,10 @@ while True:
     elif not os.path.exists(os.path.join(path, fn)):
         print(fn + " does not exist, try again.")
         continue
-    new = Image.open(os.path.join(path, fn))
-    new = np.subtract(new,np.minimum(full,new))
+    old = Image.open(os.path.join(path, fn))
+    new = np.subtract(old,np.minimum(full,old))
+    print(str(round(100*(np.sum(new) / (np.sum(old))),2)) + "%...")
+
     full = np.maximum(full, new)
     Image.fromarray(new.astype(bool)).save(os.path.join(path, "p", fn))
     os.remove(os.path.join(path, fn))
