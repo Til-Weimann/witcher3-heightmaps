@@ -31,7 +31,7 @@ https://bit.ly/2QCIOoj (1.12GB)
 White Orchard Winter (Empress Ending): 
 https://bit.ly/3chKtYX (32MB) 
 
-Feel free to share your creations in the [Showcase Discussion](https://github.com/Til-Weimann/witcher3-heightmaps/discussions/3), I'm always curious to see what you came up with.
+_Feel free to share your creations in the [Showcase Discussion](https://github.com/Til-Weimann/witcher3-heightmaps/discussions/3), I'm always curious to see what you came up with._
 
 # How to obtain the files manually
 Here is a quick guide on how to obtain the files on your own (Windows):
