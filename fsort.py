@@ -10,7 +10,7 @@ for f in os.listdir(path):
             out = ""
             for line in data.readlines():
                 if "Treetype" in line:
-                    p = os.path.join(path, "o", treetype.replace("/","\\") + ".txt")
+                    p = os.path.join(path, "o", treetype.replace("/","\\").rsplit("\\",1)[-1] + ".txt")
                     os.makedirs(p.rsplit("\\",1)[0], exist_ok=True)
                     with open(p,"a+") as outfile:
                         outfile.write(out)
@@ -21,5 +21,5 @@ for f in os.listdir(path):
                 if c > 0:
                     out += line.replace(" ","")
                     c -= 1
-            with open(os.path.join(path, "o", treetype + ".txt"),"a+") as outfile:
+            with open(os.path.join(path, "o", treetype.replace("/","\\").rsplit("\\",1)[-1] + ".txt"),"a+") as outfile:
                 outfile.write(out)
