@@ -80,6 +80,8 @@ If you have any questions or problems, head to the Discussions page and ask away
   - w2ter.2.buffer (control map) contains internal information on how the terrain is textured (texture indices, UV scale, slope threshold)
   
   - Buffers 3-6 are mipmaps of height and control map, followed by the color (tint) map
+  
+- If you're looking to obtain data beyond just height, some of the python scripts in this repo might prove useful
 
 # Legal
 I uploaded these height maps for other The Witcher fans to use them in their own fan projects since obtaining them manually can take quite a bit of time.
