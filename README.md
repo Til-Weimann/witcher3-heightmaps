@@ -70,7 +70,7 @@ Here is a quick guide on how to obtain the files on your own (Windows):
 If you have any questions or problems, head to the Discussions page and ask away. :D
 
 # Other
-- The terrains do not use the same scale, the ratio between image size and actual terrain size is not always the same. One way you can find out the right dimensions is to use the xy() console command ingame to teleport yourself to the edges. For example, Velen is (8250m)² and Skellige (7475m)².
+- The terrains do not use the same scale, the ratio between image size and actual terrain size is not always the same. One way you can find out the right dimensions is to use the xy() console command ingame to teleport yourself to the edges. For example, Velen is 8250²m² and Skellige 7475²m².
 
 - If you wonder what data is stored in the other w2ter.N.buffer files, check out this GDC Presentation: https://archive.org/details/GDC2014Gollent
   
