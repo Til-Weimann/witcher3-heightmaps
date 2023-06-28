@@ -36,7 +36,7 @@ _Feel free to share your creations in the [Showcase Discussion](https://github.c
 # How to obtain the files manually
 Here is a quick guide on how to obtain the files on your own (Windows):
 
-1. Install the nightly build of **WolvenKit 7** (https://github.com/WolvenKit/WolvenKit-7).
+1. Install the nightly build of **WolvenKit 7** ([https://github.com/WolvenKit/WolvenKit-7](https://github.com/WolvenKit/WolvenKit-7/tags)).
 
 2. Create a new mod in WolvenKit and open the asset browser
 
