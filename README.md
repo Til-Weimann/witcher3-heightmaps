@@ -33,6 +33,23 @@ https://mega.nz/file/JaVxUCKQ#akKvF4zjOR0r_alm8ripIEY2VqS8S5V26D-m0oZzNS0 (19MB)
 
 _Feel free to share your creations in the [Showcase Discussion](https://github.com/Til-Weimann/witcher3-heightmaps/discussions/3), I'm always curious to see what you came up with._
 
+# Meta Information
+
+| Terrain              | Dimensions (m) | Elevation Range (m) | Terrain Corner (m)  |
+| -------------------- | -------------- | ------------------- | ------------------- |
+| White Orchard        | 2000x2000      | -37, 45             | -1000, -1000, 0     |
+| Novigrad + Velen     | 8625x8625      | -65, 295            | -4312.5, -4312.5, 0 |
+| Skellige             | 7472x7472      | -77, 308            | -3736, -3736, 0     |
+| Kaer Morhen          | 8000x8000      | -118, 1682          | -4000, -4000, 0     |
+| Toussaint            | 8000x8000      | -15, 1785           | -4000, -4000, 0     |
+| Vizima Palace        | 3600x3600      | -50, 50             | -1800, -1800, 0     |
+| Isle Of Mist         | 1868x1868      | -80, 308            | -934, -934, 0       |
+| The Spiral           | 8000x8000      | -100, 600           | -4000, -4000, 0     |
+| White Orchard Winter | 2000x2000      | -37, 45             | -1000, -1000, 0     |
+
+This information is found in the W2W files.
+
+
 # How to obtain the files manually
 Here is a quick guide on how to obtain the files on your own (Windows):
 
