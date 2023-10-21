@@ -51,7 +51,7 @@ Here is a quick guide on how to obtain the files on your own (Windows):
 
 11. Open the console again and enter this command: **magick montage -mode concatenate -tile [VALUE+1]x tile_*.png joined.png**
 
-12. After the individual images have been merged (this can take a bit of time depending on your computer and what image it is), you should see joined.tiff in your folder. Open it up and check if everything looks right, if yes, you can delete all the other files in the folder.
+12. After the individual images have been merged (this can take a bit of time depending on your computer and what image it is), you should see joined.png in your folder. Open it up and check if everything looks right, if yes, you can delete all the other files in the folder.
 
 13. Now, the last thing you need to do is to flip the image. You can do so with **magick convert -flip joined.png flipped.png**, or just with any image editor like GIMP (Image => Transform => Flip Vertically)
   
