@@ -42,23 +42,23 @@ Here is a quick guide on how to obtain the files on your own (Windows):
 
 6. Open the Console and also change the directionary to that folder.
 
-7. Find out what resolution the individual files are. 128KB => 256x256, 512KB => 512x512, 2048KB => 1024x1024
+7. Find out the terrains Tile Resolution using WolvenKit. The number is found in the terrains W2W file under "CClipMap #1", and will either be 256, 512 or 1024.
 
-8. We will now convert the raw image data to a readable format (using .tiff here, but it really works with anything). To do this, enter this command in the console, set the resolution value and hit enter:
-  **FOR /R %a IN (*.buffer) DO magick convert -size [RESOLUTION]x[RESOLUTION] -depth 16 -define quantum:format=unsigned gray:"%~a" "%~dpna.tiff"**
+9. We will now convert the raw image data to a readable format like PNG. To do this, enter this command in the console, set the resolution value and hit enter:
+  **FOR /R %a IN (*.buffer) DO magick convert -size [tileRes]x[tileRes] -depth 16 -define quantum:format=unsigned gray:"%~a" "%~dpna.png"**
   
-9. After all the images have been converted, open the folder and scoll all the way down, and check for the highest value in the folder (3, 15, 31 etc.).
+10. After all the images have been converted, open the folder and scoll all the way down, and check for the highest value in the folder (3, 15, 31 etc.).
 
-10. Open the console and enter in this command (you can change also the output format): **magick montage -mode concatenate -tile [VALUE+1]x tile_*.tiff joined.tiff**
+11. Open the console again and enter this command: **magick montage -mode concatenate -tile [VALUE+1]x tile_*.png joined.png**
 
-11. After the individual images have been merged (this can take a bit of time depending on your computer and what image it is), you should see joined.tiff in your folder. Open it up and check if everything looks right, if yes, you can delete all the other files in the folder.
+12. After the individual images have been merged (this can take a bit of time depending on your computer and what image it is), you should see joined.tiff in your folder. Open it up and check if everything looks right, if yes, you can delete all the other files in the folder.
 
-12. Now the last thing we need to do is to flip the image. You can do so with **magick convert -flip joined.tiff flipped.tiff**, or just with any image editor like GIMP (Image => Transform => Flip Vertically)
+13. Now, the last thing you need to do is to flip the image. You can do so with **magick convert -flip joined.png flipped.png**, or just with any image editor like GIMP (Image => Transform => Flip Vertically)
   
 If you have any questions or problems, head to the Discussions page and ask away. :D
 
 # Other
-- The terrains do not use the same scale, the ratio between image size and actual terrain size is not always the same. One way you can find out the right dimensions is to use the xy() console command ingame to teleport yourself to the edges. For example, Velen is (8250m)² and Skellige (7475m)².
+- Meta information (e. g. size, tile resolution or elevation range) can be found in each worlds W2W file.
 
 - If you wonder what data is stored in the other w2ter.N.buffer files, check out this GDC Presentation: https://archive.org/details/GDC2014Gollent
   
