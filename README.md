@@ -4,51 +4,22 @@ Elevation data from all The Witcher 3 levels
 # Download
 Since GitHub's file size limit is too small for detailed terrain data, the images are hosted on MEGA (.png).
 
-White Orchard: 
-https://mega.nz/file/hLcCGb4Q#QQHWK-PqXRMby8ANcxqCtgjItdp0ihCu36Vf4K2e3ZY (19MB) 
+| Terrain              | Size (m) | Elevation Range (m) | Res (px) | Download                                                                           |
+| -------------------- | -------- | ------------------- | -------- | ---------                                                                          |
+| White Orchard        | 2000^2   | -37, 45             | 4096^2   | [19MB](https://mega.nz/file/hLcCGb4Q#QQHWK-PqXRMby8ANcxqCtgjItdp0ihCu36Vf4K2e3ZY)  |
+| Novigrad + Velen     | 8625^2   | -65, 295            | 23552^2  | [389MB](https://mega.nz/file/0XkxAIDT#abT45Ba_dh1M-2oYBLQzLLX5bbJ3R0GYPp4iDyivol4) |
+| Skellige             | 7472^2   | -77, 308            | 16384^2  | [170MB](https://mega.nz/file/Nftw0ZpQ#HjrNisbB8mEvSC9GaWcEa63pI4ZINUB0ZahcW1u6T00) |
+| Kaer Morhen          | 8000^2   | -118, 1682          | 16384^2  | [152MB](https://mega.nz/file/8XtTFJyA#BmHB12ImXlndmIv2INQlQ04ZYTmVWZH1jRNr9m1_Q4k) |
+| Toussaint            | 8000^2   | -15, 1785           | 16384^2  | [132MB](https://mega.nz/file/9KNGxDKB#cGB69qYCFTjF-HZUFfabYJO1qSJeBpq9CiaqqIWqiUE) |
+| Vizima Palace        | 3600^2   | -50, 50             | 4608^2   | [1MB](https://mega.nz/file/UPFAAKCK#-70QYcXmYPmUMX0CVV8hszoPODWfYrJLr8D9RvcwmkM)   |
+| Isle Of Mist         | 1868^2   | -80, 308            | 4096^2   | [12MB](https://mega.nz/file/lWFwwa6D#h9aqa-Nu_jNWgmu8GwuTcnKd5oplicrJjzkRinKcU0U)  |
+| The Spiral           | 8000^2   | -100, 600           | 24576^2  | [386MB](https://mega.nz/file/FC9ATCDY#wU2N6Q-aOS5pKmiWV3G0d9v2CMt2nEwEsTX2KOvCbr0) |
+| White Orchard Winter | 2000^2   | -37, 45             | 4096^2   | [19MB](https://mega.nz/file/JaVxUCKQ#akKvF4zjOR0r_alm8ripIEY2VqS8S5V26D-m0oZzNS0)  |
 
-Novigrad + Velen: 
-https://mega.nz/file/0XkxAIDT#abT45Ba_dh1M-2oYBLQzLLX5bbJ3R0GYPp4iDyivol4 (389MB) 
-
-Skellige: 
-https://mega.nz/file/Nftw0ZpQ#HjrNisbB8mEvSC9GaWcEa63pI4ZINUB0ZahcW1u6T00 (170MB) 
-
-Kaer Morhen: 
-https://mega.nz/file/8XtTFJyA#BmHB12ImXlndmIv2INQlQ04ZYTmVWZH1jRNr9m1_Q4k (152MB)
-
-Toussaint: 
-https://mega.nz/file/9KNGxDKB#cGB69qYCFTjF-HZUFfabYJO1qSJeBpq9CiaqqIWqiUE (132MB) 
-
-Vizima Palace:
-https://mega.nz/file/UPFAAKCK#-70QYcXmYPmUMX0CVV8hszoPODWfYrJLr8D9RvcwmkM (1MB) 
-
-Isle Of Mist: 
-https://mega.nz/file/lWFwwa6D#h9aqa-Nu_jNWgmu8GwuTcnKd5oplicrJjzkRinKcU0U (12MB) 
-
-The Spiral (Through Time and Space): 
-https://mega.nz/file/FC9ATCDY#wU2N6Q-aOS5pKmiWV3G0d9v2CMt2nEwEsTX2KOvCbr0 (386MB) 
-
-White Orchard Winter (Empress Ending): 
-https://mega.nz/file/JaVxUCKQ#akKvF4zjOR0r_alm8ripIEY2VqS8S5V26D-m0oZzNS0 (19MB) 
+White Orchard Winter is a slightly altered version used in the Empress Ending, The Spiral is where "Through Time and Space" takes place.
+In the game, all the terrains are centered, so the corners sit at {-0.5 * size}.
 
 _Feel free to share your creations in the [Showcase Discussion](https://github.com/Til-Weimann/witcher3-heightmaps/discussions/3), I'm always curious to see what you came up with._
-
-# Meta Information
-
-| Terrain              | Dimensions (m) | Elevation Range (m) | Terrain Corner (m)  |
-| -------------------- | -------------- | ------------------- | ------------------- |
-| White Orchard        | 2000x2000      | -37, 45             | -1000, -1000, 0     |
-| Novigrad + Velen     | 8625x8625      | -65, 295            | -4312.5, -4312.5, 0 |
-| Skellige             | 7472x7472      | -77, 308            | -3736, -3736, 0     |
-| Kaer Morhen          | 8000x8000      | -118, 1682          | -4000, -4000, 0     |
-| Toussaint            | 8000x8000      | -15, 1785           | -4000, -4000, 0     |
-| Vizima Palace        | 3600x3600      | -50, 50             | -1800, -1800, 0     |
-| Isle Of Mist         | 1868x1868      | -80, 308            | -934, -934, 0       |
-| The Spiral           | 8000x8000      | -100, 600           | -4000, -4000, 0     |
-| White Orchard Winter | 2000x2000      | -37, 45             | -1000, -1000, 0     |
-
-This information is found in the W2W files.
-
 
 # How to obtain the files manually
 Here is a quick guide on how to obtain the files on your own (Windows):
