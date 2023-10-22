@@ -5,7 +5,7 @@ from PIL import Image
 Image.MAX_IMAGE_PIXELS = None
 
 dir = os.getcwd()
-dir = "C:\\Users\\Til\\Desktop\\workspace\\white orchard"
+# dir = "C:\\"
 
 colors = []
 
