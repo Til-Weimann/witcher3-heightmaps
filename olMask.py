@@ -5,7 +5,7 @@ from PIL import Image
 Image.MAX_IMAGE_PIXELS = None
 
 dir = os.getcwd()
-dir = "C:\\Users\\Til\\Desktop\\workspace\\white orchard"
+# dir = "C:\\"
 
 sm = np.array(Image.open(os.path.join(dir, "sm.png"))) # 0 to 255
 bc = np.array(Image.open(os.path.join(dir, "bc.png"))) * 32 # 0 to 7
