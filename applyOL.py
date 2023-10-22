@@ -5,7 +5,7 @@ from PIL import Image
 Image.MAX_IMAGE_PIXELS = None
 
 dir = os.getcwd()
-dir = "C:\\Users\\Til\\Desktop\\workspace\\white orchard"
+# dir = "C:\\"
 
 olMask = np.array(Image.open(os.path.join(dir, "olMask.png"))).astype('bool')
 bg = np.array(Image.open(os.path.join(dir, "bg.png"))).astype(np.uint8)
