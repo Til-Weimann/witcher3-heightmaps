@@ -4,11 +4,14 @@ from PIL import Image
 
 Image.MAX_IMAGE_PIXELS = None
 
-sm = np.array(Image.open(os.path.join(os.getcwd, "sm.png")))
-sc = np.array(Image.open(os.path.join(os.getcwd, "sc.png"))) * 8192 + 8192
+dir = os.getcwd()
+dir = "C:\\Users\\Til\\Desktop\\workspace\\white orchard"
 
-olM = sm < sc
+sm = np.array(Image.open(os.path.join(dir, "sm.png"))) # 0 to 255
+bc = np.array(Image.open(os.path.join(dir, "bc.png"))) * 32 # 0 to 7
+
+olM = sm <= bc # where blend control is higher than / equal to slope, choose overlay
 
 out = Image.fromarray(olM.astype('bool'))
 
-out.save(os.path.join(os.getcwd, "olMask.png"))
+out.save(os.path.join(dir, "olMask.png"))
