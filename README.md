@@ -70,6 +70,8 @@ If you have any questions or problems, head to the Discussions page and ask away
   
   - Buffers 3-6 are mipmaps of height and control map, followed by the color (tint) map
   
+- Detailed information on how the blend control map works can be found [here](https://codeberg.org/rmemr/w3.terrain-texturing/src/branch/main/assets/shaders/terrain_frag.wgsl#L297).
+
 - If you're looking to obtain data beyond just height, some of the python scripts in this repo might prove useful
 
 # Legal
