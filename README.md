@@ -19,6 +19,8 @@ The heightmap images are hosted on MEGA (.png).
 White Orchard Winter is a slightly altered version used in the Empress Ending, The Spiral is where "Through Time and Space" takes place.
 In the game, all the terrains are centered, so the corners sit at {-0.5 * size}.
 
+All these heightmaps were extracted BEFORE the 2022 Next Gen update, there may be minor differences to the current version.
+
 _Feel free to share your creations in the [Showcase Discussion](https://github.com/Til-Weimann/witcher3-heightmaps/discussions/3), I'm always curious to see what you came up with._
 
 # How to obtain the files manually
