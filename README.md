@@ -1,8 +1,8 @@
 # witcher3-heightmaps
-Elevation data from all The Witcher 3 levels
+Elevation data from all The Witcher 3 levels, and tools to extract/process it
 
 # Download
-Since GitHub's file size limit is too small for detailed terrain data, the images are hosted on MEGA (.png).
+The heightmap images are hosted on MEGA (.png).
 
 | Terrain              | Size (m) | Elevation Range (m) | Res (px) | Download                                                                           |
 | -------------------- | -------- | ------------------- | -------- | ---------                                                                          |
@@ -75,7 +75,7 @@ If you have any questions or problems, head to the Discussions page and ask away
 # Legal
 I uploaded these height maps for other The Witcher fans to use them in their own fan projects since obtaining them manually can take quite a bit of time.
 
-While I heavily doubt that CDPR will have something against this, a legal permission to do so does not exist.
-You should limit the use of data extracted from the game in general to personal fan projects and refrain from using it in any commercial way without having explicit permission by CDPR.
+While I doubt that CDPR would have something against this, a legal permission to do so does not exist.
+You should limit the use of data extracted from the game in general to personal fan projects and refrain from using it in any commercial way without having received explicit permission from CDPR.
 
-In the case that CDPR should have something against the height data being up for download here, please contact me and I will take the files down.
+In the case that CDPR should have something against the height data being up for download, please contact me and I will take the files down.
